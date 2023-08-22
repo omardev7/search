@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+ul.show {
+  opacity: 1;
+}
+
+li {
+  flex-basis: calc(50% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
